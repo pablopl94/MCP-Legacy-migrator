@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "legacy-migrator": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\pabli\\Documents\\PRACTICAS\\LEGACY\\MCP\\dist\\index.js",
+        "--mcp-server"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

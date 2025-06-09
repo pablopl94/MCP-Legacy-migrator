@@ -1,0 +1,47 @@
+{
+  "name": "legacy-vb-to-csharp-migrator",
+  "version": "2.0.0",
+  "description": "Complete VB.NET to C# Migration Tool with MCP Integration",
+  "main": "dist/index.js",
+  "bin": {
+    "legacy-migrator": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "mcp": "node dist/index.js --mcp-server",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "dev:server": "ts-node src/mcp-server.ts",
+    "mcp-server": "ts-node src/mcp-server.ts",
+    "validate": "node validate.js",
+    "install-and-test": "npm install && npm run build && npm run validate",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts --fix",
+    "clean": "rm -rf dist coverage"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "glob": "^8.0.0",
+    "@types/glob": "^8.0.0",
+    "xml2js": "^0.6.2",
+    "@types/xml2js": "^0.4.11",
+    "mustache": "^4.2.0",
+    "@types/mustache": "^4.2.2",
+    "fs-extra": "^11.0.0",
+    "@types/fs-extra": "^11.0.0",
+    "lodash": "^4.17.21",
+    "@types/lodash": "^4.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0"
+  }
+}

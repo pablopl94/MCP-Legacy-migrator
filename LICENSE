@@ -1,0 +1,94 @@
+MIT License
+
+Copyright (c) 2025 Legacy Migration Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This project includes third-party software with the following licenses:
+
+### Dependencies
+
+- **@modelcontextprotocol/sdk** - MIT License
+- **TypeScript** - Apache License 2.0
+- **Commander.js** - MIT License
+- **Chalk** - MIT License
+- **Mustache.js** - MIT License
+- **xml2js** - MIT License
+- **lodash** - MIT License
+- **glob** - ISC License
+- **fs-extra** - MIT License
+
+### Development Dependencies
+
+- **Jest** - MIT License
+- **ESLint** - MIT License
+- **Prettier** - MIT License
+- **TypeDoc** - Apache License 2.0
+
+Full license texts for all dependencies can be found in their respective `node_modules` directories after installation.
+
+---
+
+## Attribution
+
+This project was developed with assistance from AI tools and incorporates patterns and practices from the open-source community. We acknowledge and appreciate the contributions of:
+
+- The .NET Foundation and Microsoft for the .NET ecosystem
+- The TypeScript team for the TypeScript language
+- The Node.js community for the runtime environment
+- The open-source community for tools and libraries
+- Anthropic for Claude AI and the Model Context Protocol
+
+---
+
+## Commercial Usage
+
+This MIT license allows commercial usage of this software. However, if you're using this tool commercially and it provides significant value to your business, we appreciate:
+
+- Attribution in your documentation or about pages
+- Contributions back to the project (bug reports, features, documentation)
+- Consideration of sponsoring the project's development
+- Sharing success stories with the community
+
+---
+
+## Support and Warranty Disclaimer
+
+This software is provided "as-is" without warranty of any kind. While we strive to make this tool as reliable and accurate as possible, migration of legacy code is inherently complex and may require manual intervention.
+
+**Important Notes:**
+
+1. **Backup First**: Always backup your original code before running any migration
+2. **Test Thoroughly**: Migrated code should be thoroughly tested before production use
+3. **Review Generated Code**: Automated migration may require manual review and adjustment
+4. **No Guarantee**: We cannot guarantee that all code will migrate perfectly
+5. **Professional Services**: For critical migrations, consider professional consulting services
+
+---
+
+## Contact
+
+For licensing questions or commercial inquiries:
+- Email: legal@legacy-migrator.com
+- Website: https://legacy-migrator.com
+- GitHub: https://github.com/your-org/legacy-vb-to-csharp-migrator

@@ -1,0 +1,110 @@
+{
+  "mcp": {
+    "name": "legacy-vb-to-csharp-migrator",
+    "version": "2.0.0",
+    "description": "Complete VB.NET to C# Migration Tool with MCP Integration",
+    "author": "Legacy Migration Team",
+    "license": "MIT",
+    "homepage": "https://github.com/your-org/legacy-migrator",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-org/legacy-migrator.git"
+    }
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3000,
+    "timeout": 30000,
+    "maxConcurrentRequests": 10,
+    "enableCORS": true,
+    "logLevel": "info"
+  },
+  "analyzer": {
+    "language": "auto",
+    "complexityThresholds": {
+      "cyclomaticComplexity": {
+        "low": 5,
+        "medium": 10,
+        "high": 20
+      },
+      "maintainabilityIndex": {
+        "good": 70,
+        "fair": 50,
+        "poor": 30
+      },
+      "linesOfCode": {
+        "method": 50,
+        "class": 500,
+        "file": 1000
+      }
+    },
+    "codeSmellRules": [
+      {
+        "id": "long-method",
+        "enabled": true,
+        "severity": "medium",
+        "parameters": {
+          "maxLines": 50
+        }
+      },
+      {
+        "id": "deep-nesting",
+        "enabled": true,
+        "severity": "medium",
+        "parameters": {
+          "maxDepth": 4
+        }
+      },
+      {
+        "id": "magic-numbers",
+        "enabled": true,
+        "severity": "low",
+        "parameters": {
+          "ignore": [0, 1, -1, 2, 10, 100]
+        }
+      }
+    ]
+  },
+  "migration": {
+    "defaultTargetFramework": "net8.0",
+    "defaultArchitecture": "Clean",
+    "includeTests": true,
+    "preserveComments": true,
+    "generateDocumentation": true,
+    "customRules": [],
+    "excludePatterns": [
+      "bin/**",
+      "obj/**",
+      "*.user",
+      "*.suo",
+      "*.cache"
+    ]
+  },
+  "reporting": {
+    "formats": ["json", "html", "markdown"],
+    "includeSourceCode": false,
+    "includeMetrics": true,
+    "includeRecommendations": true,
+    "includeRisks": true,
+    "templates": {
+      "html": "default",
+      "markdown": "default"
+    }
+  },
+  "security": {
+    "enableAuthentication": false,
+    "apiKeys": [],
+    "rateLimiting": {
+      "enabled": true,
+      "maxRequests": 100,
+      "windowMs": 900000
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "ttl": 3600,
+    "maxSize": "100MB",
+    "type": "memory"
+  },
+  "plugins": []
+}

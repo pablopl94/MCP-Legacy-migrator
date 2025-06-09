@@ -1,0 +1,171 @@
+# 🚀 Legacy VB to C# MCP Migrator - .gitignore
+
+# ===================================
+# Node.js Dependencies
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===================================
+# TypeScript Compiled Output
+# ===================================
+dist/
+build/
+*.tsbuildinfo
+
+# ===================================
+# Testing & Coverage
+# ===================================
+coverage/
+*.lcov
+.nyc_output/
+
+# ===================================
+# Environment & Configuration
+# ===================================
+.env
+.env.local
+.env.production
+.env.test
+.env.*.local
+
+# ===================================
+# IDE & Editor Files
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===================================
+# OS Generated Files
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================================
+# MCP Specific - Test Output
+# ===================================
+test-output/
+test-output-sample/
+test-data/
+**/test-output*/
+
+# ===================================
+# VB.NET/C# Migration Output
+# ===================================
+migrated/
+output/
+migration-results/
+SistemaAlmacenNet8/
+**/migrated-*/
+
+# ===================================
+# Logs & Reports - Generated Files
+# ===================================
+*.log
+logs/
+analysis-report.*
+migration-report.*
+MIGRATION-IMPROVEMENT-REPORT.md
+effort-estimation-report.*
+architecture-proposal-report.*
+module-analysis-report.*
+project-analysis-report.*
+conversion-report.*
+validation-report.*
+performance-report.*
+*-informe.*
+*-reporte.*
+informes/
+reportes/
+reports/
+
+# ===================================
+# MCP Migration Analysis Files
+# ===================================
+vb-project-analysis.json
+csharp-migration-result.json
+effort-estimation.json
+architecture-proposal.json
+module-details.json
+conversion-rules-applied.json
+
+# ===================================
+# Temporary Files
+# ===================================
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ===================================
+# Package Manager Files
+# ===================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===================================
+# Runtime Files
+# ===================================
+*.pid
+*.seed
+*.pid.lock
+
+# ===================================
+# Optional Cache Directories
+# ===================================
+.npm
+.eslintcache
+.cache/
+
+# ===================================
+# MCP Server Process Files
+# ===================================
+*.mcp.log
+mcp-server.log
+
+# ===================================
+# Testing Sample Projects
+# ===================================
+**/SimpleInventory*
+**/Calculator*
+**/TestProject*
+**/Proyecto1*
+
+# ===================================
+# Backup Files
+# ===================================
+*.bak
+*.backup
+*.old
+
+# ===================================
+# Documentation Build
+# ===================================
+docs/build/
+
+# ===================================
+# Keep These Important Files
+# ===================================
+!README.md
+!CURSOR-INSTALLATION-GUIDE.md
+!CURSOR-TROUBLESHOOTING.md
+!MCP-IMPROVEMENT-PLAN.md
+!claude_desktop_config.json
+!test-sample/
+!src/
+!tests/
+!scripts/
+!config/ 
