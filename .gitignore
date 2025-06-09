@@ -71,6 +71,15 @@ SistemaAlmacenNet8/
 **/migrated-*/
 
 # ===================================
+# Documentation & Internal Files
+# ===================================
+docs/
+Documentacion.txt
+CURSOR-INSTALLATION-GUIDE.md
+CURSOR-TROUBLESHOOTING.md
+MCP-IMPROVEMENT-PLAN.md
+
+# ===================================
 # Logs & Reports - Generated Files
 # ===================================
 *.log
@@ -160,9 +169,6 @@ docs/build/
 # Keep These Important Files
 # ===================================
 !README.md
-!CURSOR-INSTALLATION-GUIDE.md
-!CURSOR-TROUBLESHOOTING.md
-!MCP-IMPROVEMENT-PLAN.md
 !claude_desktop_config.json
 !test-sample/
 !src/
