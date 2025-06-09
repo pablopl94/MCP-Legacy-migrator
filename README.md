@@ -407,10 +407,8 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 Para preguntas, problemas o soporte:
 
-- 🐛 **Reportes de Bugs**: [GitHub Issues](https://github.com/tuusuario/legacy-vb-migrator-mcp/issues)
-- 💡 **Solicitudes de Características**: [GitHub Discussions](https://github.com/tuusuario/legacy-vb-migrator-mcp/discussions)
-- 📧 **Email**: soporte@tuempresa.com
-
+- 🐛 **Reportes de Bugs**: [GitHub Issues](https://github.com/pablopl94/MCP-Legacy-migrator/issues)
+- 💡 **Solicitudes de Características**: [GitHub Discussions](https://github.com/pablopl94/MCP-Legacy-migrator/discussions)
 ## Reconocimientos
 
 - Construido con [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
